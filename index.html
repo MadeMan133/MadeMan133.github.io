@@ -84,8 +84,9 @@
           Host : "smtp.elasticemail.com",
           Username : "aram.nersisyan13@gmail.com",
           Password : "452BD769991A02F00EAF79C8D0C1DFB28B97",
-          To : 'aram.nersisyan.work@gmail.com',
-          From : document.getElementById("email").value,
+          To : 'aram.nersisyan13@gmail.com',
+          From : 'aram.nersisyan13@gmail.com',
+          ReplyFrom: document.getElementById("email").value,
           Subject : "New User added",
           Body : "Name: "  +  document.getElementById("name").value 
                 + "<br> Email: " + document.getElementById("email").value
